@@ -1,0 +1,106 @@
+
+.hero-arbtr{
+    padding-top: 30px;
+}
+
+.control-arbitraj {
+  width: 760px;
+  height: 640px;
+  background: #ffffff;
+  border-radius: 32px;
+}
+
+.control-table-arbitraj{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-arbitraj{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding:  0 30px 20px 30px;
+    border-bottom: solid #9297A0 1px;
+}
+
+.arbtr-control{
+    padding: 12px 0;
+    border-bottom: solid #9297A0 1px;
+}
+
+.control-title-arbitraj{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:  0 30px;
+
+}
+
+
+.line-menu-span{
+    width: 1px;
+    height: 20px;
+    background: #9297A0;
+}
+
+
+
+.rank-them{
+    width: 60px;
+    padding-left: 20px;
+}
+.control-img{
+    width: 40px;
+    margin-left: 10px;
+}
+
+.name-them{
+    width: 210px; 
+    margin-left: 50px;
+}
+
+.img-icons-arbtr{
+    width: 25px;
+}
+
+.control-Name-FulName{
+    width: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.span-Name{
+    color: #9297A0;
+    padding-left: 10px;
+}
+
+
+.price-them{
+    width: 120px;
+    margin-left: 100px;
+}
+
+.control-price-usd{
+    width: 150px;
+}
+
+
+.h24-them{
+    width: 50px;
+    margin-left: 50px;
+}
+
+.control-24h{
+    width: 130px;
+}
+
+.gren{
+    color: green;
+}
+
+.red{
+    color: red;
+}

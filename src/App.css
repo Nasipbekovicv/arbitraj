@@ -1,0 +1,29 @@
+
+
+.container{
+  width: 1200px;
+  margin:  0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.arbitraj{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mini-blok-rate-and-curency{
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.title-kurs-valit{
+  color: white;
+  padding: 20px 0;
+  font-size: 40px;
+  font-weight: 800;
+}
