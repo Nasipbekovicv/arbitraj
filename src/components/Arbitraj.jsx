@@ -10,7 +10,6 @@ const Arbitraj = () => {
         `https://min-api.cryptocompare.com/data/top/totalvolfull?limit=10&tsym=USD`
       );
       setArbitraj(res.data.Data);
-      // console.log(res.data.Data);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -50,14 +49,13 @@ const Arbitraj = () => {
                       {e.CoinInfo.Name}
                     </span>
                   </div>
-                  <div className="control-price-usd">{e.DISPLAY.USD.PRICE}</div>
+                  <div className={`control-24h  ${e.DISPLAY.USD.PRICE > e.DISPLAY.USD.OPENHOUR ? "gren" : 'red'}`}>{e.DISPLAY.USD.PRICE}</div>
                   <div
-                    className={`control-24h  ${e.DISPLAY.USD.OPEN24HOUR > '$ 0' ? "gren" : 'red'}`}
+                    className={`control-24h  ${e.DISPLAY.USD.OPEN24HOUR > '$ 0.999' ? "gren" : 'red'}`}
                   >
                     {e.DISPLAY.USD.OPEN24HOUR}%
                   </div>
                 </div>
-                  <div className="line-control"></div>
               </div>
             );
           })}
