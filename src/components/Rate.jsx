@@ -70,8 +70,7 @@ const Rate = () => {
 
   return (
     <div className="control-rate">
-      <div style={{ padding: "5px 20px" }}>
-        <div className="control-rate-title">
+      <div className="control-block-rate-p">
           <div className="control-baner-them">
             <p>Наименование</p>
             <span style={{paddingRight: '50px'}}>
@@ -85,7 +84,7 @@ const Rate = () => {
           <div>
             <div className="p-price">
               <div>
-                <img src={usaImg} style={{paddingRight: '10px'}}/> <span>USD</span>
+                <img src={usaImg} className='icons-rate-baner'/> <span>USD</span>
               </div>
               <div>
                 <span>{item.KGS}</span>
@@ -96,7 +95,7 @@ const Rate = () => {
             </div>
             <div className="p-price">
               <div>
-                <img src={eurImg} style={{paddingRight: '10px'}}/> <span>EUR</span>
+                <img src={eurImg} className='icons-rate-baner'/> <span>EUR</span>
               </div>
               <div>
                 <span>{eur.KGS}</span>
@@ -107,7 +106,7 @@ const Rate = () => {
             </div>
             <div className="p-price">
               <div>
-                <img src={rubImg} style={{paddingRight: '10px'}}/> <span>RUB</span>
+                <img src={rubImg} className='icons-rate-baner'/> <span>RUB</span>
               </div>
               <div>
                 <span>{rub.KGS}</span>
@@ -118,7 +117,7 @@ const Rate = () => {
             </div>
             <div className="p-price">
               <div>
-                <img src={turkImg} style={{paddingRight: '10px'}}/> <span>TRY</span>
+                <img src={turkImg} className='icons-rate-baner'/> <span>TRY</span>
               </div>
               <div>
                 <span>{turk.KGS}</span>
@@ -129,7 +128,7 @@ const Rate = () => {
             </div>
             <div className="p-price">
               <div>
-                <img src={kztImg} style={{paddingRight: '10px'}}/> <span>KZT</span>
+                <img src={kztImg} className='icons-rate-baner'/> <span>KZT</span>
               </div>
               <div>
                 <span>{kzt.KGS}</span>
@@ -140,7 +139,7 @@ const Rate = () => {
             </div>
             <div className="p-price">
               <div>
-                <img src={chinaImg} style={{paddingRight: '10px'}}/> <span>CNY</span>
+                <img src={chinaImg} className='icons-rate-baner'/> <span>CNY</span>
               </div>
               <div>
                 <span>{cny.KGS}</span>
@@ -150,7 +149,6 @@ const Rate = () => {
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
   );

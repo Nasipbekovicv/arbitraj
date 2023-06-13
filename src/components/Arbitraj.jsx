@@ -40,11 +40,11 @@ const Arbitraj = () => {
                     <img className="img-icons-arbtr" src={`https://www.cryptocompare.com/${e.CoinInfo.ImageUrl}`} />
                   </div>
                   <div className="control-Name-FulName">
-                    <span>
+                    <span className="span-Name-FulName">
                     {e.CoinInfo.FullName}
                     </span>
                   </div>
-                  <div className="control-Name-FulName">
+                  <div className="control-Name-Name">
                     <span className="span-Name">
                       {e.CoinInfo.Name}
                     </span>

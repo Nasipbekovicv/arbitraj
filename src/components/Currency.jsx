@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import "./style/Currency.css";
 import axios from "axios";
+import {LuArrowUpDown} from 'react-icons/lu'
 
 const Currency = () => {
-   const [item, setItem] = useState([])
+  const [item, setItem] = useState([]);
   const [initial, setInitial] = useState({
-    currencies: ["USD", "KGS", "KZT", "RUB", "JPY", "INR", "CNY"],
+    currencies: ["USD", "KGS", "KZT", "RUB", "EUR", "INR", "CNY"],
     base: "USD",
     amount: "",
     converTo: "KGS",
@@ -23,11 +24,9 @@ const Currency = () => {
         const res = await axios.get(
           `https://api.exchangerate-api.com/v4/latest/${base}`
         );
-        setItem(res.data)
+        setItem(res.data);
         const response = res.data;
-        const result = (response.rates[converTo] * amount).toFixed(
-          3
-        );
+        const result = (response.rates[converTo] * amount).toFixed(3);
         setInitial({
           ...initial,
           result,
@@ -68,9 +67,7 @@ const Currency = () => {
       <div style={{ padding: "10px 20px" }}>
         <div className="control-rate-title">
           <div>
-            <p className="p-date"> 
-            {item.date}
-            </p>
+            <p className="p-date">{item.date}</p>
           </div>
           <h5>
             {amount} {base} равно
@@ -79,7 +76,6 @@ const Currency = () => {
             {amount === "" ? "0" : result === null ? "Calculatin..." : result}
             {converTo}
           </h3>
-          <p>as of {amount === "" ? "" : date === null ? "" : date} </p>
         </div>
         <form>
           <div className="control-input-syle">
@@ -104,8 +100,8 @@ const Currency = () => {
             </select>
           </div>
         </form>
-        <div className="sweap-control-block" >
-          <p className="sweap-control" onClick={handleSweap}>&#x21C4;</p>
+        <div className="sweap-control-block">
+            <LuArrowUpDown onClick={handleSweap} className="sweap-control" />
         </div>
         <form>
           <div className="control-input-syle">
