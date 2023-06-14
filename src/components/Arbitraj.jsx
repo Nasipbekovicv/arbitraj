@@ -21,7 +21,7 @@ const Arbitraj = () => {
 
   return (
     <div className="control-arbitraj">
-      <div className="hero-arbtr">
+      {/* <div className="hero-arbtr"> */}
         <div className="menu-arbitraj">
           <p className="rank-them">#</p>
           <span className="line-menu-span"></span>
@@ -60,7 +60,7 @@ const Arbitraj = () => {
             );
           })}
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 };
