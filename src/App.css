@@ -1,7 +1,6 @@
 .control-all-block {
   display: flex;
   flex-direction: column;
-  /* align-items: start; */
   justify-content: center;
 }
 
