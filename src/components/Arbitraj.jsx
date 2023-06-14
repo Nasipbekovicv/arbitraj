@@ -22,44 +22,55 @@ const Arbitraj = () => {
   return (
     <div className="control-arbitraj">
       {/* <div className="hero-arbtr"> */}
-        <div className="menu-arbitraj">
-          <p className="rank-them">#</p>
-          <span className="line-menu-span"></span>
-          <p  className="name-them">Наименование</p>
-          <span className="line-menu-span"></span>
-          <p  className="price-them">Цена</p>
-          <span className="line-menu-span"></span>
-          <p  className="h24-them">24 ч.</p>
-        </div>
-        <div >
-          {arbitraj.map((e) => {
-            return (
-              <div key={e.CoinInfo.Id} className="arbtr-control">
-                <div className="control-title-arbitraj">
-                  <div className="control-img">
-                    <img className="img-icons-arbtr" src={`https://www.cryptocompare.com/${e.CoinInfo.ImageUrl}`} />
-                  </div>
-                  <div className="control-Name-FulName">
-                    <span className="span-Name-FulName">
+      <div className="menu-arbitraj">
+        <p className="rank-them">#</p>
+        <span className="line-menu-span"></span>
+        <p className="name-them">Наименование</p>
+        <span className="line-menu-span"></span>
+        <p className="price-them">Цена</p>
+        <span className="line-menu-span"></span>
+        <p className="h24-them">24 ч.</p>
+      </div>
+      <div>
+        {arbitraj.map((e) => {
+          return (
+            <div key={e.CoinInfo.Id} className="arbtr-control">
+              <div className="control-title-arbitraj">
+                <div className="control-img">
+                  <img
+                    className="img-icons-arbtr"
+                    src={`https://www.cryptocompare.com/${e.CoinInfo.ImageUrl}`}
+                  />
+                </div>
+                <div className="control-Name-FulName">
+                  <span className="span-Name-FulName">
                     {e.CoinInfo.FullName}
-                    </span>
-                  </div>
-                  <div className="control-Name-Name">
-                    <span className="span-Name">
-                      {e.CoinInfo.Name}
-                    </span>
-                  </div>
-                  <div className={`control-24h  ${e.DISPLAY.USD.PRICE > e.DISPLAY.USD.OPENHOUR ? "gren" : 'red'}`}>{e.DISPLAY.USD.PRICE}</div>
-                  <div
-                    className={`control-24h  ${e.DISPLAY.USD.OPEN24HOUR > '$ 0.999' ? "gren" : 'red'}`}
-                  >
-                    {e.DISPLAY.USD.OPEN24HOUR}%
-                  </div>
+                  </span>
+                </div>
+                <div className="control-Name-Name">
+                  <span className="span-Name">{e.CoinInfo.Name}</span>
+                </div>
+                <div
+                  className={`control-24h  ${
+                    e.DISPLAY.USD.PRICE > e.DISPLAY.USD.OPENHOUR
+                      ? "gren"
+                      : "red"
+                  }`}
+                >
+                  {e.DISPLAY.USD.PRICE}
+                </div>
+                <div
+                  className={`control-24h  ${
+                    e.DISPLAY.USD.OPEN24HOUR > "$ 0.999" ? "gren" : "red"
+                  }`}
+                >
+                  {e.DISPLAY.USD.OPEN24HOUR}%
                 </div>
               </div>
-            );
-          })}
-        </div>
+            </div>
+          );
+        })}
+      </div>
       {/* </div> */}
     </div>
   );

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./style/Currency.css";
 import axios from "axios";
-import {LuArrowUpDown} from 'react-icons/lu'
+import { LuArrowUpDown } from "react-icons/lu";
 
 const Currency = () => {
   const [item, setItem] = useState([]);
@@ -101,7 +101,7 @@ const Currency = () => {
           </div>
         </form>
         <div className="sweap-control-block">
-            <LuArrowUpDown onClick={handleSweap} className="sweap-control" />
+          <LuArrowUpDown onClick={handleSweap} className="sweap-control" />
         </div>
         <form>
           <div className="control-input-syle">

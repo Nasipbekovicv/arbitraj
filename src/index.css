@@ -21,7 +21,7 @@ body {
 
 /* ======================================================= */
 
-@media  (min-width:413px) and (max-width:480px) {
+@media (min-width: 413px) and (max-width: 480px) {
   * {
     margin: 0;
     padding: 0;
@@ -44,7 +44,7 @@ body {
 
 /* ======================================================= */
 
-@media  (min-width: 360px) and (max-width: 412px) {
+@media (min-width: 360px) and (max-width: 412px) {
   * {
     margin: 0;
     padding: 0;

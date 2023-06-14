@@ -9,10 +9,7 @@ function App() {
     <>
     <div className='container'>
     <div className='control-all-block'>
-
       <h1 className='title-kurs-valit'>Курсы валют</h1>
-
-
       <div className='arbitraj'>
       <Arbitraj/>
       <div className='mini-blok-rate-and-curency'>

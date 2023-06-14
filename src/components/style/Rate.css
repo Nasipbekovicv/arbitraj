@@ -45,7 +45,7 @@
 
 /* ================================================================== */
 
-@media  (min-width:413px) and (max-width:480px) {
+@media (min-width: 413px) and (max-width: 480px) {
   .control-rate {
     width: 400px;
     height: 290px;
@@ -87,7 +87,7 @@
 
 /* ================================================================== */
 
-@media  (min-width: 360px) and (max-width: 412px) {
+@media (min-width: 360px) and (max-width: 412px) {
   .control-rate {
     width: 320px;
     height: 290px;

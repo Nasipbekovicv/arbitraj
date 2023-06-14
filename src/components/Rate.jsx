@@ -71,84 +71,86 @@ const Rate = () => {
   return (
     <div className="control-rate">
       <div className="control-block-rate-p">
-          <div className="control-baner-them">
-            <p>Наименование</p>
-            <span style={{paddingRight: '50px'}}>
-              <BsArrowDownCircle style={{color: '#25CE7D',}}/>
-            </span>
-            <span>
-              <BsArrowUpCircle style={{color: '#FA4F4F',}} />
-            </span>
-          </div>
-          <div className="hr-w"></div>
-          <div>
-            <div className="p-price">
-              <div>
-                <img src={usaImg} className='icons-rate-baner'/> <span>USD</span>
-              </div>
-              <div>
-                <span>{item.KGS}</span>
-              </div>
-              <div>
-                <span>{item.KGS}</span>
-              </div>
+        <div className="control-baner-them">
+          <p>Наименование</p>
+          <span style={{ paddingRight: "50px" }}>
+            <BsArrowDownCircle style={{ color: "#25CE7D" }} />
+          </span>
+          <span>
+            <BsArrowUpCircle style={{ color: "#FA4F4F" }} />
+          </span>
+        </div>
+        <div className="hr-w"></div>
+        <div>
+          <div className="p-price">
+            <div>
+              <img src={usaImg} className="icons-rate-baner" /> <span>USD</span>
             </div>
-            <div className="p-price">
-              <div>
-                <img src={eurImg} className='icons-rate-baner'/> <span>EUR</span>
-              </div>
-              <div>
-                <span>{eur.KGS}</span>
-              </div>
-              <div>
-                <span>{eur.KGS}</span>
-              </div>
+            <div>
+              <span>{item.KGS}</span>
             </div>
-            <div className="p-price">
-              <div>
-                <img src={rubImg} className='icons-rate-baner'/> <span>RUB</span>
-              </div>
-              <div>
-                <span>{rub.KGS}</span>
-              </div>
-              <div>
-                <span>{rub.KGS}</span>
-              </div>
-            </div>
-            <div className="p-price">
-              <div>
-                <img src={turkImg} className='icons-rate-baner'/> <span>TRY</span>
-              </div>
-              <div>
-                <span>{turk.KGS}</span>
-              </div>
-              <div>
-                <span>{turk.KGS}</span>
-              </div>
-            </div>
-            <div className="p-price">
-              <div>
-                <img src={kztImg} className='icons-rate-baner'/> <span>KZT</span>
-              </div>
-              <div>
-                <span>{kzt.KGS}</span>
-              </div>
-              <div>
-                <span>{kzt.KGS}</span>
-              </div>
-            </div>
-            <div className="p-price">
-              <div>
-                <img src={chinaImg} className='icons-rate-baner'/> <span>CNY</span>
-              </div>
-              <div>
-                <span>{cny.KGS}</span>
-              </div>
-              <div>
-                <span>{cny.KGS}</span>
-              </div>
+            <div>
+              <span>{item.KGS}</span>
             </div>
           </div>
+          <div className="p-price">
+            <div>
+              <img src={eurImg} className="icons-rate-baner" /> <span>EUR</span>
+            </div>
+            <div>
+              <span>{eur.KGS}</span>
+            </div>
+            <div>
+              <span>{eur.KGS}</span>
+            </div>
+          </div>
+          <div className="p-price">
+            <div>
+              <img src={rubImg} className="icons-rate-baner" /> <span>RUB</span>
+            </div>
+            <div>
+              <span>{rub.KGS}</span>
+            </div>
+            <div>
+              <span>{rub.KGS}</span>
+            </div>
+          </div>
+          <div className="p-price">
+            <div>
+              <img src={turkImg} className="icons-rate-baner" />{" "}
+              <span>TRY</span>
+            </div>
+            <div>
+              <span>{turk.KGS}</span>
+            </div>
+            <div>
+              <span>{turk.KGS}</span>
+            </div>
+          </div>
+          <div className="p-price">
+            <div>
+              <img src={kztImg} className="icons-rate-baner" /> <span>KZT</span>
+            </div>
+            <div>
+              <span>{kzt.KGS}</span>
+            </div>
+            <div>
+              <span>{kzt.KGS}</span>
+            </div>
+          </div>
+          <div className="p-price">
+            <div>
+              <img src={chinaImg} className="icons-rate-baner" />{" "}
+              <span>CNY</span>
+            </div>
+            <div>
+              <span>{cny.KGS}</span>
+            </div>
+            <div>
+              <span>{cny.KGS}</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
