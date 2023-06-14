@@ -28,7 +28,7 @@
 
 /* =============================================================== */
 
-@media (min-width: 413px) and (max-width: 480px) {
+@media (min-width: 426px) and (max-width: 487px) {
   .control-all-block {
     display: flex;
     flex-direction: column;
@@ -53,14 +53,14 @@
     padding-bottom: 40px;
     font-size: 35px;
     font-weight: 700;
-    width: 380px;
+    width: 425px;
     padding-left: 0px;
   }
 }
 
 /* =============================================================== */
 
-@media (min-width: 360px) and (max-width: 412px) {
+@media (min-width: 376px) and (max-width: 425px) {
   .control-all-block {
     display: flex;
     flex-direction: column;
@@ -85,14 +85,14 @@
     padding-bottom: 40px;
     font-size: 35px;
     font-weight: 700;
-    width: 320px;
+    width: 375px;
     padding-left: 0px;
   }
 }
 
 /* =============================================================== */
 
-@media (min-width: 320px) and (max-width: 359px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .control-all-block {
     display: flex;
     flex-direction: column;

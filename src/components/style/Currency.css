@@ -115,9 +115,9 @@
 
 /* ========================================================== */
 
-@media (min-width: 413px) and (max-width: 480px) {
+@media (min-width: 426px) and (max-width: 487px) {
   .control-currency {
-    width: 400px;
+    width: 425px;
     height: 290px;
     background: #ffffff;
     border-radius: 32px;
@@ -231,9 +231,9 @@
 
 /* ========================================================== */
 
-@media (min-width: 360px) and (max-width: 412px) {
+@media (min-width: 376px) and (max-width: 425px) {
   .control-currency {
-    width: 320px;
+    width: 375px;
     height: 290px;
     background: #ffffff;
     border-radius: 32px;
@@ -347,9 +347,9 @@
 
 /* ========================================================== */
 
-@media (min-width: 320px) and (max-width: 359px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .control-currency {
-    width: 300px;
+    width: 320px;
     height: 290px;
     background: #ffffff;
     border-radius: 32px;

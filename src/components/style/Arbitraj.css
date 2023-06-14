@@ -98,9 +98,9 @@
 
 /* ============================================================================== */
 
-@media (min-width: 413px) and (max-width: 480px) {
+@media (min-width: 426px) and (max-width: 487px) {
   .control-arbitraj {
-    width: 400px;
+    width: 425px;
     height: 500px;
     background: #ffffff;
     border-radius: 32px;
@@ -137,7 +137,7 @@
   .line-menu-span {
     width: 1px;
     height: 20px;
-    margin-left: 24px;
+    margin-left: 34px;
     background: #9297a0;
   }
 
@@ -211,9 +211,9 @@
 
 /* ============================================================================== */
 
-@media (min-width: 360px) and (max-width: 412px) {
+@media (min-width: 376px) and (max-width: 425px) {
   .control-arbitraj {
-    width: 320px;
+    width: 375px;
     height: 500px;
     background: #ffffff;
     border-radius: 32px;
@@ -249,7 +249,7 @@
   .line-menu-span {
     width: 1px;
     height: 20px;
-    margin-left: 15px;
+    margin-left: 20px;
     background: #9297a0;
   }
 
@@ -268,7 +268,7 @@
 
   .name-them {
     width: 100px;
-    margin-left: 5px;
+    margin-left: 20px;
     font-size: 14px;
   }
 
@@ -293,7 +293,7 @@
 
   .price-them {
     width: 60px;
-    margin-left: 20px;
+    margin-left: 25px;
     font-size: 14px;
   }
 
@@ -323,9 +323,9 @@
 
 /* ============================================================================== */
 
-@media (min-width: 320px) and (max-width: 359px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .control-arbitraj {
-    width: 300px;
+    width: 320px;
     height: 500px;
     background: #ffffff;
     border-radius: 32px;
@@ -362,7 +362,7 @@
   .line-menu-span {
     width: 1px;
     height: 20px;
-    margin-left: 8px;
+    margin-left: 12px;
     background: #9297a0;
   }
 
