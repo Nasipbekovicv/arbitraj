@@ -1,7 +1,7 @@
 .control-all-block {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  /* align-items: start; */
   justify-content: center;
 }
 
@@ -22,6 +22,7 @@
 .title-kurs-valit {
   color: white;
   padding-bottom: 40px;
+  padding-left: 20px;
   font-size: 40px;
   font-weight: 700;
 }
@@ -32,7 +33,7 @@
   .control-all-block {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
   }
   .arbitraj {
@@ -54,6 +55,7 @@
     font-size: 35px;
     font-weight: 700;
     width: 380px;
+    padding-left: 0px;
   }
 }
 
@@ -63,7 +65,7 @@
   .control-all-block {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
   }
   .arbitraj {
@@ -85,6 +87,7 @@
     font-size: 35px;
     font-weight: 700;
     width: 320px;
+    padding-left: 0px;
   }
 }
 
@@ -94,7 +97,7 @@
   .control-all-block {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
   }
   .arbitraj {
@@ -113,6 +116,7 @@
   .title-kurs-valit {
     color: white;
     padding-bottom: 40px;
+    padding-left: 0px;
     font-size: 35px;
     font-weight: 700;
     width: 300px;
